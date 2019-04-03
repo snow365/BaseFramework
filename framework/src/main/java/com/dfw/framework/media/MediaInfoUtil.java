@@ -5,6 +5,7 @@ import java.io.File;
 import com.abercap.mediainfo.api.MediaInfo;
 
 public class MediaInfoUtil {
+	@SuppressWarnings("resource")
 	public void getMediaInfo()
 	{
 		MediaInfo mediaInfo = new MediaInfo();
@@ -12,6 +13,8 @@ public class MediaInfoUtil {
 		String type = mediaInfo.get(MediaInfo.StreamKind.General, 0, "FileExtension", MediaInfo.InfoKind.Text);
         String width = mediaInfo.get(MediaInfo.StreamKind.Video, 0, "Width", MediaInfo.InfoKind.Text);
         String height = mediaInfo.get(MediaInfo.StreamKind.Video, 0, "Height", MediaInfo.InfoKind.Text);
+        //System.out.println( mediaInfo.get(MediaInfo.StreamKind.Video, 0, "", MediaInfo.InfoKind.Text));
+        
         System.out.println(type);
         System.out.println(width);
         System.out.println(height);
