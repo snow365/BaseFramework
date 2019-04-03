@@ -7,17 +7,17 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>framework Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <repository>
-		<id>hyjx-nexus</id>
-		<name>hyjx-nexus</name>
-		<url>http://172.22.0.9:8082/nexus/content/groups/public/</url>
-		<releases>
-			<enabled>true</enabled>
-		</releases>
-		<snapshots>
-			<enabled>true</enabled>
-		</snapshots>
-	</repository>
+<!--   <repository> -->
+<!-- 		<id>hyjx-nexus</id> -->
+<!-- 		<name>hyjx-nexus</name> -->
+<!-- 		<url>http://172.22.0.9:8082/nexus/content/groups/public/</url> -->
+<!-- 		<releases> -->
+<!-- 			<enabled>true</enabled> -->
+<!-- 		</releases> -->
+<!-- 		<snapshots> -->
+<!-- 			<enabled>true</enabled> -->
+<!-- 		</snapshots> -->
+<!-- 	</repository> -->
   <properties>
 		<jdk.version>1.7</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
@@ -124,6 +124,7 @@
 		    <version>4.1.34.Final</version>
 		</dependency>
 
+		
   </dependencies>
   <build>
     <finalName>framework</finalName>
