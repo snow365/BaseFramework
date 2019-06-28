@@ -16,9 +16,9 @@ public class CommonUtils {
 	 * 返回指定格式的日期或时间
 	 * @return
 	 */
-	public static String getDateByFmt(DateFmt df)
+	public static String getDateByFmt(String df)
 	{
-		return new SimpleDateFormat(df.datetime).format(new Date());
+		return new SimpleDateFormat(df).format(new Date());
 	}
 	
 }
