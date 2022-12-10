@@ -20,7 +20,7 @@
 <!-- 	</repository> -->
   <properties>
 		<jdk.version>1.7</jdk.version>
-		<spring.version>5.1.2.RELEASE</spring.version>
+		<spring.version>6.0.0</spring.version>
 		<ibatis.version>3.4.6</ibatis.version>
 		<druid.version>1.1.12</druid.version>
 	</properties>
